@@ -12,11 +12,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install and build
-        run: |
-          npm install
-          npm run build
-
       - name: Simple deploy with git
         uses: rdarida/simple-github-pages-deploy-action@v1
         with: # optional
