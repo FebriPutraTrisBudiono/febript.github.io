@@ -19,4 +19,4 @@ jobs:
           git-email: '<your email address>'
           git-base-folder: '<output folder of your build>'
           commit-message: 'new deployment'
-          branch: 'gh-pages'
+          branch: 'gh-pages1'
