@@ -15,8 +15,8 @@ jobs:
       - name: Simple deploy with git
         uses: rdarida/simple-github-pages-deploy-action@v1
         with: # optional
-          git-user: '<your GitHub username>'
-          git-email: '<your email address>'
-          git-base-folder: '<output folder of your build>'
+          git-user: 'FebriPutraTrisBudiono'
+          git-email: 'febript@gmail.com'
+          git-base-folder: 'gh-pages'
           commit-message: 'new task'
           branch: 'gh-pages'
