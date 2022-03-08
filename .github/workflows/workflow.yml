@@ -13,4 +13,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Simple deploy with git
-        uses: rdarida/simple-github-pages-deploy-action@v1
+        uses: rdarida/simple-github-pages-deploy-action@v
+        with: # optional
+          git-user: 'FebriPutraTrisBudiono'
+          git-email: 'febript@gmail.com'
+          git-base-folder: '.'
+          commit-message: 'new text'
+          branch: 'gh-pages'
